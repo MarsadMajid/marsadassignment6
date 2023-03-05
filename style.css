@@ -1,0 +1,291 @@
+.yelo{
+    background-color: #fdcc1f;
+}
+.login{
+color: #fdcc1f;
+
+}
+.button6day{
+    color:
+rgba(241, 114, 40, 1);
+    background-color: 
+    rgba(241, 114, 40, 0.2);
+    border: none;
+}
+.how{
+    color:rgba(241, 114, 40, 1) ;
+}
+/* .card{
+display: flex;
+width: calc(100%/5);
+} */
+.how2{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+.row-card-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 100%;
+      margin-right: 0;
+    }
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 10px;
+    line-height: 10px;
+    opacity: 0.5;
+    color: black;
+    content: "•";
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+  }
+  }
+  .container {
+    position: relative;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .indicators {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .indicators li {
+    margin: 0 5px;
+  }
+  
+  .indicators li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: block;
+  }
+    .sign{
+      color: #FFB30E;
+      background: #FFFFFF;
+      box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+      border-radius: 8px;
+  }
+  
+  .search{
+    background-color:transparent;
+    border: none;
+  }
+
+
+
+
+
+  .but{
+    width: 20%;
+    min-width: 10%;
+    height: 10%;
+    padding: 2px;
+   border-radius: 6px;
+   background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0 1px 20px 0 rgba(251, 187, 85);
+}
+.bag{
+    background-image: url(./images/background.png);
+    width: 100%;
+    height: 400px
+}
+.hd{
+    margin-top: 5% !important ;
+    color: aliceblue;
+    letter-spacing: 10% !important ;
+    font-size: 500%;
+}
+.box{
+    border: red 1px solid;
+    width: 80% ;
+    min-width: 40% ;
+    height: 175px;
+    min-height: 25% ;
+    background-color: white;
+    border-radius: 12px;
+}
+.bt {
+    color: rgba(241,114,40,255);
+    background-color: rgb(255, 183, 141);
+    font-weight: bolder;
+    border-color: none !important;
+    /* width:18% !important; */
+    border: none;
+}
+.is input {
+        
+        border: none !important;
+        border-radius: 8px;   
+        width: 65%;
+        min-width: 35%;
+        padding: 1%;
+        padding-left: 7%;
+        background-color: rgb(245, 245, 245);
+        outline: none;
+        background-image: url(./images/Iconloc.png);
+        background-repeat: no-repeat;
+        background-position-y:7px ;
+        background-position-x:10px ;
+      
+    
+        }
+    .fb{
+        outline: none !important;
+        background-color: red !important;
+        color: white !important;
+        width: 13vh;
+        height: 5vh ;
+            
+    }
+    .row-card-slider {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+      
+      .card {
+        flex: 0 0 auto;
+        width: 300px;
+        margin-right: 10px;
+      }
+      
+      @media (max-width: 767px) {
+        .card {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+      .te{
+        
+        width: 140px;
+        height: 40px;
+        padding-left: 10%;
+        padding-top: 10%;
+        line-height: 150%;
+      }
+      .bt1{
+        color: rgba(241,114,40,255);
+        background-color: rgba(241, 114, 40,0.2);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: rgb(255, 78, 78);
+      }
+      .bt2{
+        color: rgba(241,114,40,255);
+        background-color: rgba(121, 185, 60, 0.2);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: rgb(121, 185, 60);
+      }
+      .bt3{
+        color: rgba(241,114,40,255);
+        background-color: rgba(255, 92, 42, 0.896);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: white;
+      }
+      .bt4{
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: white;
+          background-image: linear-gradient(to right,
+            rgb(255, 170, 0),
+            rgb(255, 170, 0,0.5)
+          );
+        
+        box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+      }
+      .ii{
+        border-radius: 50%;
+        
+      }
+      @media only screen and (max-width: 700px) {.iii {
+        max-width: 100%;
+      }}
+      @media only screen and (max-width: 400px) {.ii {
+        max-width: 60%;
+      }} 
+      @media only screen and (max-width: 400px) {.bg {
+        max-width: 100%;
+      }} 
+
+      .box7{
+        background-color: aqua;
+        width: 55%;
+        box-shadow: 10px, 10px;
+        
+      }
+      .white{
+        color: azure;
+      }
+      .dot{
+        list-style-type: none;
+      }
+      .dot li {
+        margin-top: 0.25rem 
+      }
+      .line{ border: 1px solid rgb(255, 235, 235);
+
+      }
+      .bl{
+        color: rgb(135, 129, 129);
+      }
+      .bt5{
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: white;
+          background-image: linear-gradient(to right,
+            rgb(243, 223, 43),
+            rgb(228, 194, 3)
+          );
+        
+        
+      }
+      .sign{
+        color: #FFB30E;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px rgb(255 174 0 / 26%), 0px 20px 40px rgb(255 174 0 / 29%);
+        border-radius: 8px;
+    }
+    
+    .search{
+      background-color:transparent;
+      border: none;
+    }
+
+    
